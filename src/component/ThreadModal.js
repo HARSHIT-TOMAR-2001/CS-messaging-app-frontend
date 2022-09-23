@@ -126,7 +126,7 @@ export default function ThreadModal({ open, setOpen, selectedThread }) {
                 width:'100%',
                 margin:'1rem auto'
             }}>
-                <TextField value={userMessage} onChange={(e) => setUserMessage(e.target.value)} sx={{ width:'80%' }} id="standard-basic" label="Standard" variant="standard" />
+                <TextField value={userMessage} onChange={(e) => setUserMessage(e.target.value)} sx={{ width:'80%' }} id="standard-basic" label="your query..." variant="standard" />
                 <Button onClick={handleSend} variant="contained">Send</Button>
             </Stack>
             <Stack direction="row" spacing={2} sx={{
